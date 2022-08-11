@@ -15,13 +15,13 @@ cd docs/.vitepress/dist
 git init
 git add -A
 git commit -m 'deploy'
-git branch -M main
+# git branch -M main
 
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 
-git push -f git@github.com:zhanghui08/myBlog.git main
+git push -f git@github.com:zhanghui08/github.io.git master
 
 cd -
